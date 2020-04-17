@@ -3,18 +3,9 @@ package com.zuipin.interview.chenzhongqiang.base;
 
 public class ResponseData {
 
-    private Boolean status = true;
     private int error_code = 200;
     private String error_message = "";
     private Object data;
-
-	public Boolean getStatus() {
-		return status;
-	}
-
-	public void setStatus(Boolean status) {
-		this.status = status;
-	}
 
 	public int getError_code() {
 		return error_code;
